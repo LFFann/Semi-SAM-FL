@@ -1,0 +1,53 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Training outputs and experiment artifacts
+Results/
+runs/
+checkpoints/
+outputs/
+logs/
+wandb/
+tensorboard/
+
+# Datasets and local medical images
+data/
+SampleData/
+*.nii
+*.nii.gz
+*.h5
+*.hdf5
+
+# Model weights and archives
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.zip
+*.rar
+*.7z
+
+# Local reports copied from external repositories
+doc/related_papers_for_comparison/
+doc/related_repositories_for_comparison/
+
+# Local research notes and downloaded paper materials
+idea/
+papers/
+doc/优化.md
+doc/report_assets/ra_sam_ssl_*.svg
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
